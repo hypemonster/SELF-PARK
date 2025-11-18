@@ -277,9 +277,7 @@ iframe {
   }
 }
 
-/* ============================ */
-/*      🔥 TEXTO AJUSTADO       */
-/* ============================ */
+
 
 .mapa-text {
   flex: 1;
@@ -287,7 +285,7 @@ iframe {
   position: relative;
   height: 240px; /* mantém o mesmo tamanho visual */
   overflow: visible; /* evita cortar o texto */
-  margin-top: -40px;
+  top: -55px;
 }
 
 .mapa-text h1 {
@@ -418,7 +416,7 @@ iframe {
 
 /* === GRID CONTAINER === */
 .container {
-  width: 1150px;
+  width: 1130px;
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
   grid-gap: 15px;
@@ -433,8 +431,10 @@ iframe {
   height: 300px;
   margin: 0 auto;
   background: #fff;
-  box-shadow: 0 5px 30px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.5);
   border-radius: 15px;
+  right: 8vh;
+  
   
 }
 
@@ -448,7 +448,7 @@ iframe {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-right: 450px;
+  
 }
 
 /* === FACE 1 === */
