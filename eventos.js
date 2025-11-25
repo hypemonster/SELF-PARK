@@ -72,3 +72,7 @@ document.addEventListener('DOMContentLoaded', () => {
   // aplica no carregamento
   applyFilters();
 });
+
+document.getElementById("homeLogo").onclick = function() {
+      window.location.href = "index.html"; // Página Home
+};
